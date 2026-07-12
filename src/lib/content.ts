@@ -56,7 +56,7 @@ export const templates: Template[] = [
     name: "Altavista Terrenos",
     nicheId: "inmobiliarias",
     description: "Catálogo de terrenos en venta con información de ubicación.",
-    href: "https://yukl-store.netlify.app/",
+    href: "https://altavista-terrenos.netlify.app/",
   },
   {
     name: "Cardinal Bienes Raíces",
