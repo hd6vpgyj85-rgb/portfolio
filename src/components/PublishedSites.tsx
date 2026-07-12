@@ -24,7 +24,7 @@ export default function PublishedSites() {
                 rel="noreferrer"
                 className="group block"
               >
-                <BrowserMockup name={site.name} accent={site.accent} />
+                <BrowserMockup name={site.name} />
                 <div className="mt-5 flex items-start justify-between gap-4">
                   <div>
                     <h3 className="text-xl font-medium tracking-tight">

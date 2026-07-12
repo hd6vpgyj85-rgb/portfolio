@@ -1,5 +1,4 @@
-// Contenido del sitio. Reemplaza los valores de ejemplo por tus datos reales
-// cuando tengas los links y nombres definitivos de tus proyectos.
+// Contenido del sitio.
 
 export const contact = {
   phone: "+52 656 859 6503",
@@ -14,39 +13,21 @@ export type SiteCard = {
   niche: string;
   description: string;
   href: string;
-  accent: string;
 };
 
 // Sitios de negocios reales, publicados y funcionales.
-// Sustituye "href" por el link real de cada sitio cuando lo tengas.
 export const publishedSites: SiteCard[] = [
   {
-    name: "Grupo Horizonte",
-    niche: "Inmobiliaria",
-    description: "Catálogo de propiedades, filtros de búsqueda y contacto directo con asesores.",
-    href: "#",
-    accent: "from-neutral-700 to-neutral-900",
+    name: "PadelBros",
+    niche: "Club de pádel",
+    description: "Reservación de canchas, horarios y torneos del club.",
+    href: "https://padelbrosmx.com/",
   },
   {
-    name: "La Terraza",
-    niche: "Restaurante",
-    description: "Menú digital, reservaciones en línea y pedidos para llevar.",
-    href: "#",
-    accent: "from-neutral-700 to-neutral-900",
-  },
-  {
-    name: "Studio Alma",
-    niche: "Boutique",
-    description: "Tienda en línea con catálogo de temporada y checkout simplificado.",
-    href: "#",
-    accent: "from-neutral-700 to-neutral-900",
-  },
-  {
-    name: "Clínica Vive Bien",
-    niche: "Estética",
-    description: "Agenda de citas, servicios y galería de resultados para clientes.",
-    href: "#",
-    accent: "from-neutral-700 to-neutral-900",
+    name: "Yukly Store",
+    niche: "Tienda en línea",
+    description: "Catálogo de productos con checkout y envíos.",
+    href: "https://yukly.netlify.app/",
   },
 ];
 
@@ -70,54 +51,83 @@ export type Template = {
 };
 
 // Plantillas disponibles por nicho.
-// Sustituye "href" por el link real de la demo cuando lo tengas.
 export const templates: Template[] = [
   {
-    name: "Horizonte Bienes Raíces",
+    name: "Altavista Terrenos",
     nicheId: "inmobiliarias",
-    description: "Listado de propiedades con búsqueda por precio y ubicación.",
-    href: "#",
+    description: "Catálogo de terrenos en venta con información de ubicación.",
+    href: "https://yukl-store.netlify.app/",
   },
   {
-    name: "Vista Residencial",
+    name: "Cardinal Bienes Raíces",
     nicheId: "inmobiliarias",
-    description: "Landing enfocada en desarrollos y preventas.",
-    href: "#",
+    description: "Catálogo de propiedades con contacto directo a asesores.",
+    href: "https://cardinal-bienes-raices.netlify.app/",
   },
   {
-    name: "Sabor de Barrio",
+    name: "Netly Inmobiliaria",
+    nicheId: "inmobiliarias",
+    description: "Landing inmobiliaria con listado de propiedades destacadas.",
+    href: "https://hd6vpgyj85-rgb.github.io/Inmobiliaria/index.html",
+  },
+  {
+    name: "Yuki",
     nicheId: "restaurantes",
-    description: "Menú visual con secciones por tipo de platillo.",
-    href: "#",
+    description: "Experiencia visual con ambientación 3D para presentar el menú.",
+    href: "https://hd6vpgyj85-rgb.github.io/eemplo-web-3d-ventas/",
   },
   {
-    name: "La Cava",
+    name: "Brasa",
     nicheId: "restaurantes",
-    description: "Enfoque en reservaciones y ambiente del lugar.",
-    href: "#",
+    description: "Landing de asador con menú y reservaciones.",
+    href: "https://6a4570d1c1944419fc79c705--ephemeral-frangollo-774ee1.netlify.app/",
   },
   {
-    name: "Boutique Lumière",
+    name: "Katsu Sushi",
+    nicheId: "restaurantes",
+    description: "Menú de sushi con sección de ubicación y contacto.",
+    href: "https://6a456365d14001baef8f149c--bright-gumdrop-27da0e.netlify.app/#ubicacion",
+  },
+  {
+    name: "La Mesa",
+    nicheId: "restaurantes",
+    description: "Presentación elegante de platillos y reservaciones.",
+    href: "https://super-muffin-5853ee.netlify.app/",
+  },
+  {
+    name: "Origen Café",
+    nicheId: "restaurantes",
+    description: "Landing de cafetería con menú y ubicación.",
+    href: "https://origen-cafe-cdmx.netlify.app/",
+  },
+  {
+    name: "Marea",
+    nicheId: "restaurantes",
+    description: "Restaurante de mariscos con menú visual y contacto directo.",
+    href: "https://willowy-syrniki-bab398.netlify.app/",
+  },
+  {
+    name: "Yukl Store",
     nicheId: "boutiques",
-    description: "Escaparate de productos con estilo editorial.",
-    href: "#",
+    description: "Escaparate de productos de moda con catálogo por colección.",
+    href: "https://yukl-store.netlify.app/",
   },
   {
-    name: "Atelier Nova",
-    nicheId: "boutiques",
-    description: "Catálogo por colecciones y lookbook.",
-    href: "#",
-  },
-  {
-    name: "Piel & Spa",
+    name: "Netly Estética",
     nicheId: "esteticas",
     description: "Reservación de citas y catálogo de tratamientos.",
-    href: "#",
+    href: "https://superlative-stroopwafel-5f11db.netlify.app/",
   },
   {
-    name: "Studio Renace",
+    name: "Lumière",
     nicheId: "esteticas",
-    description: "Landing de servicios con antes y después.",
-    href: "#",
+    description: "Landing de spa con servicios y agenda de citas.",
+    href: "https://lumiere-estetica-spa.netlify.app/",
+  },
+  {
+    name: "Juárez Barber Shop",
+    nicheId: "esteticas",
+    description: "Sitio de barbería con servicios y horarios de atención.",
+    href: "https://juarez-barber-shop.netlify.app/",
   },
 ];
